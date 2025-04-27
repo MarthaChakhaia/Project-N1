@@ -51,6 +51,152 @@ header{
     background-color: #e00f14;
 }
 
+#check{
+    display: none;
+}
+
+#check:checked ~ .burgerAppear {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--mainColor3);
+    animation: burgerSlide 0.6s ease forwards;
+}
+
+.burgerAppear{
+    width: 55%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    z-index: 999;
+}
+
+@keyframes burgerSlide {
+    from {
+        opacity: 0;
+        transform: translateX(-100%); 
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.navBurger{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.navBurger ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.second{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.second ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.second li{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    border-right: 1px solid #e00f14;
+}
+
+.second li a{
+    font-size: 25px;
+    font-family: var(--mainFont2);
+}
+
+.third{
+    border-right: none !important;
+}
+
+.navBurger li a{
+    width: 100%;
+}
+
+.navBurger li{
+    text-align: center;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #e00f14;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+
+.navBurger li:hover{
+    transition: 0.3s;
+    background-color: #e00f14;
+}
+
+.navBurger li:hover a{
+    color: white;
+}
+
+.navBurger .lastLi{
+    border-bottom: 1px solid #e00f14;
+}
+
+
+
+#check:checked + .labelForBurger .burger .line2{
+    display: none; 
+    transition: display 0.3s ease; 
+}
+
+#check:checked + .labelForBurger .burger .line1{
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.5s ease;
+}
+
+#check:checked + .labelForBurger .burger .line3{
+    transform: rotate(-45deg)translate(5px, -5px);
+    transition: 0.5s ease;
+}
+
+.labelForBurger{
+    /* display: none; */
+    position: relative;
+    z-index: 1000;
+    /* right: 0;
+    top: 0; */
+}
+
+/* .burger{
+    z-index: 1000;
+} */
+
+.burgerAppear{
+    display: none;
+}
+
 .topHeader{
     width: 100%;
     height: 20%;
