@@ -1,127 +1,339 @@
 @media screen and (max-width: 1024px) {
-  nav {
-      display: none;
-  }
+    nav {
+        display: none;
+    }
 
-  .burger {
-      position: absolute;
-      right: 20px;
-      top: 50%;
-      transform: translateY(-50%);
-      padding-right: 0;
-  }
+    .burger {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        padding-right: 0;
+}
 
-  .leftHeader {
-      width: 100%;
-      justify-content: center;
-      position: relative;
-  }
+    .leftHeader {
+        width: 100%;
+        justify-content: center;
+        position: relative;
+}
 
-  .title {
-      position: static;
-      transform: none;
-      text-align: center;
-  }
+    .title {
+        position: static;
+        transform: none;
+        text-align: center;}   
 
-  .title h3 {
-      font-size: 24px;
-  }
+    .title h3 {
+        font-size: 24px;
+}
 }
 
 @media (max-width: 900px) {
-  .galleryTitle h2 {
-      font-size: 24px;
-  }
+    .galleryTitle h2 {
+        font-size: 24px;
+    }
 
-  .galleryTitle p {
-      font-size: 15px;
-  }
+    .galleryTitle p {
+        font-size: 15px;
+    }
 
-  .overlay p {
-      font-size: 16px;
-      width: 100%;
-  }
+    .overlay p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .footDown{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footDown{
+        align-items: start;
+    }
+
+    .fUp h3{
+        font-size: 20px;
+    }
+
+    footer .down button{
+        width: 45%;
+    }
+
+    .hairExperts .up{
+        width: 75%;
+    }
+
+    .hairExperts button{
+        width: 45%;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .upMain h1 {
+        font-size: 120px;
+    }
 
-  .upMain h1 {
-      font-size: 120px;
-  }
+    .upMain p {
+        font-size: 14px;
+        width: 70%;
+    }
 
-  .upMain p {
-      font-size: 14px;
-      width: 70%;
-  }
+    .mainImg {
+        height: 450px;
+        border-top-left-radius: 50% 60%;
+        border-top-right-radius: 50% 60%;
+    }
 
-  .mainImg {
-      height: 450px;
-      border-top-left-radius: 50% 60%;
-      border-top-right-radius: 50% 60%;
-  }
+    .galleryContainer {
+        width: 90%;
+        gap: 8px;
+    }
 
-  .galleryContainer {
-      width: 90%;
-      gap: 8px;
-  }
+    img {
+        width: 100%;
+        height: auto;
+    }
 
-  img {
-      width: 100%;
-      height: auto;
-  }
+    .galleryTitle h2 {
+        font-size: 22px;
+    }
 
-  .galleryTitle h2 {
-      font-size: 22px;
-  }
+    .galleryTitle p {
+        font-size: 14px;
+    }
 
-  .galleryTitle p {
-      font-size: 14px;
-  }
+    .fUph3{
+        font-size: 19px;
+}  
+
+.footLine2{
+    display: block;
+}
+
+.FDown{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.marcx{
+    width: 100%;
+}
+
+.marjv{
+    width: 100%;
+}
+
+.footDown{
+    gap: 30px;
+}
+
+.footH2 h2{
+    font-size: 150px;
+}
+
+.down button{
+    width: 50%;
+}
+
+.hairExperts{
+    flex-direction: column-reverse;
+}
+
+.hairExperts .right{
+    width: 100%;
+    background-attachment: scroll;
+}
+
+.contUp{
+    background-attachment: scroll;
+}
+
+.hairExperts .left{
+    width: 100%;
+}
+
+.hairExperts .up{
+    width: 100%;
+}
+
+.hairExperts button{
+    width: 30%;
+}
+
+.circleUp{
+    gap: 20px;
+}
+}
+
+@media screen and (max-width: 673px) {
+    .footH2 h2{
+        font-size: 120px;
+    }
+
+    .footDown{
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .footL{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 85%;
+    }
+    
+    .social ul{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .footM{
+        margin-top: 150px;
+        width: 100%;
+        gap: 25px;
+    }
+
+    .fUp{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fUp h3{
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .fMiddle{
+        width: 100%;
+    }
+
+    .marcx{
+        justify-content: center;
+    }
+
+    .marcx p{
+        width: auto;
+    }
+
+    .footR{
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .credit p{
+        text-align: center;
+    }
+
+    .bookCircle{
+        width: 400px;
+        height: 495px;
+        bottom: -80px;
+    }
+
+    .contUp{
+        height: 50%;
+    }
 }
 
 @media screen and (max-width: 490px) {
-  .galleryContainer {
-      width: 100%;
-      padding: 0 10px;
-      gap: 5px;
-  }
+    .galleryContainer {
+        width: 100%;
+        padding: 0 10px;
+        gap: 5px;
+    }
 
-  .galleryItem {
-      width: 100%;
-  }
+    .galleryItem {
+        width: 100%;
+    }
 
-  .galleryImg {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-  }
+    .galleryImg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
-  .galleryTitle h2 {
-      font-size: 18px;
-      text-align: center;
-  }
+    .galleryTitle h2 {
+        font-size: 18px;
+        text-align: center;
+    }
 
-  .galleryTitle p {
-      font-size: 12px;
-      text-align: center;
-  }
+    .galleryTitle p {
+        font-size: 12px;
+        text-align: center;
+    }
 
-  .upMain h1 {
-      font-size: 60px;
-  }
+.upMain h1 {
+    font-size: 60px;
+}
 
-  .upMain p {
-      font-size: 12px;
-      width: 100%;
-  }
+.upMain p {
+    font-size: 12px;
+    width: 100%;
+}
 
-  .mainImg {
-      height: 250px;
-      border-top-left-radius: 50% 50%;
-      border-top-right-radius: 50% 50%;
-  }
+.mainImg {
+    height: 250px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+}
 
-  .upMain{
-      margin-top: 100px;
-  }
+.upMain{
+    margin-top: 100px;
+}
+
+    .marcx{
+        justify-content: start;
+    }
+
+.fUp h3{
+    text-align: start;
+}
+
+.footR{
+    width: 50%;
+}
+
+.footL{
+    width: 73%;
+}
+
+.footH2 h2{
+    font-size: 90px;
+}
+
+.hairExperts .left{
+    gap: 30px;
+}
+
+    .hairExperts button{
+        width: 50%;
+    }
+
+    .bookCircle{
+        width: 300px;
+        height: 395px;
+        bottom: 15px;
+}
+
+    .circleUp span{
+        font-size: 35px;
+        word-spacing: 10px;
+}
+
+    .circleUp p{
+        font-size: 18px;
+        padding: 0px 10px;
+}
+
+    .circleDown p{
+        font-size: 17px;
+        padding: 0px 50px;
+}
 }
