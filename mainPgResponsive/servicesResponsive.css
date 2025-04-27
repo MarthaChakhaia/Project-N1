@@ -1,0 +1,55 @@
+@media screen and (max-width: 992px) {
+    .tripleService {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .service {
+        width: 95%;
+        gap: 40px; 
+        margin-bottom: 40px; 
+    }
+
+    .service1{
+        flex-direction: column-reverse;
+    }
+
+    .txtDiv h3 {
+        font-size: 42px;
+    }
+
+    .h2Div h2 {
+        font-size: 38px;
+        width: 90%;
+    }
+
+    .serviceBtnDiv button {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wholeService {
+        width: 90%;
+        gap: 30px;
+    }
+
+    .txtDiv h3 {
+        font-size: 34px;
+    }
+
+    .h2Div h2 {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .serviceBtnDiv button {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .service {
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+}

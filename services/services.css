@@ -1,0 +1,135 @@
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fffef8;
+  flex-direction: column;
+  margin: 90px 0px;
+}
+main .mainServices {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+main .h1Div {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .h1Div h1 {
+  font-size: 250px;
+  font-weight: 100;
+  font-family: "Imperial Script", cursive;
+}
+main .boxes {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: nowrap;
+}
+main .boxes .box {
+  width: 30%;
+  min-height: 500px;
+  border: 1px solid #e00f14;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 30px;
+}
+main .boxes .box .imgDiv1 {
+  background-image: url(../images/blonde.jpg);
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+main .boxes .box .imgDiv2 {
+  background-image: url(../images/dark.jpg);
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+main .boxes .box .imgDiv3 {
+  background-image: url(../images/curly.jpg);
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+main .boxes .box .line {
+  width: 80%;
+  height: 1px;
+  background-color: #e00f14;
+}
+main .boxes .box h2 {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+main .boxes .box h2:hover {
+  color: #f88b8d;
+  transition: 0.3s;
+}
+main .boxes .box p {
+  font-size: 14px;
+  text-align: center;
+}
+main .boxes .box button {
+  cursor: pointer;
+  border-radius: 25px;
+  border: 1px solid #e00f14;
+  padding: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  width: 100%;
+  font-weight: 700;
+}
+main .boxes .box button:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1150px) {
+  main .boxes .box .longH2 {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .boxes {
+    flex-wrap: wrap;
+  }
+  main .boxes .box {
+    width: 95%;
+    margin: 15px auto;
+  }
+  main .h1Div h1 {
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  main .h1Div h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  main .boxes {
+    gap: 30px;
+  }
+  main .box {
+    padding: 20px;
+  }
+}/*# sourceMappingURL=services.css.map */
