@@ -84,8 +84,7 @@ header{
 .title{
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) !important;
+    transform: translateX(-50%);
 }
 
 .title h3{
