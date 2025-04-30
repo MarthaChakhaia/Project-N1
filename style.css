@@ -64,6 +64,14 @@ header{
     animation: burgerSlide 0.6s ease forwards;
 }
 
+.burgerLogInBtn{
+    display: none !important;
+}
+
+.burgerBookBtn{
+    display: none !important;
+}
+
 .burgerAppear{
     width: 55%;
     height: 100vh;
