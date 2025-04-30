@@ -323,6 +323,10 @@
     .labelForBurger{
         right: -20px;
     }
+
+    .back2Top{
+        display: flex;
+    }
 }
 
 @media screen and (max-width: 490px) {
@@ -384,7 +388,7 @@
 }
 
 .footL{
-    width: 73%;
+    width: 63%;
 }
 
 .footH2 h2{

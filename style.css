@@ -25,6 +25,22 @@ body{
     background-color: var(--mainColor2);
 }
 
+.back2Top{
+    display: none;
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--mainColor3);
+    z-index: 1000;
+}
+
+.back2Top a{
+    cursor: pointer;
+}
+
 header{
     width: 100%;
     height: 110px;
