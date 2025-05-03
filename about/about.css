@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 130px 0px 30px 0px;
+  gap: 50px;
+  background-color: #fffef8;
+  padding: 0px 50px;
+}
+main .mainH1 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .mainH1 h1 {
+  font-size: 220px;
+  font-weight: 100;
+  font-family: "Imperial Script", cursive;
+}
+main .qvemot {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  gap: 15px;
+}
+main .qvemot .leFt {
+  height: 100%;
+  width: 70%;
+  background-image: url(../images/aboutus.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .qvemot .riGht {
+  height: 100%;
+  max-width: 30%;
+  width: 274px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+main .qvemot .riGht p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.6em;
+}
+
+#locations {
+  width: 100%;
+  height: 100vh;
+  background-color: #fffef8;
+  padding: 50px 50px 30px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+#locations .locationsH2 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#locations .locationsH2 h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+#locations .locations-grid {
+  width: 85%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 0px;
+}
+#locations .locations-grid .location {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+}
+#locations .locations-grid .location .locTxt {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 10px;
+}
+#locations .locations-grid .location .locTxt p {
+  font-size: 16px;
+  font-weight: 600;
+}
+#locations .locations-grid .location .locTxt span {
+  font-size: 25px;
+  font-family: "Imperial Script", cursive;
+  font-weight: 100;
+}
+#locations .locations-grid .location .address {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#locations .locations-grid .location .address p {
+  font-size: 22px;
+  font-weight: 600;
+}
+#locations .locations-grid .location .locLine {
+  width: 411px;
+  height: 5px;
+  background-color: #e00f14;
+}
+
+#wordWithUs {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--mainColor2);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 280px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0px 50px;
+}
+#wordWithUs .boxUp {
+  width: 100%;
+  height: 80%;
+  background-image: url(../images/07.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#wordWithUs .boxDown {
+  width: 100%;
+  height: 20%;
+  background-color: var(--mainColor2);
+}
+#wordWithUs .workCircle {
+  position: absolute;
+  bottom: -180px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--mainColor2);
+  width: 700px;
+  height: 798px;
+  border-radius: 9999px 9999px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px #e00f14 solid;
+  gap: 80px;
+}
+#wordWithUs .workCircle .upCircle {
+  margin-top: 125px;
+  width: 100%;
+  height: 30%;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#wordWithUs .workCircle .upCircle h3 {
+  font-size: 45px;
+  font-family: "Imperial Script", cursive;
+  word-spacing: 10px;
+  font-weight: 100;
+}
+#wordWithUs .workCircle .upCircle .workLine {
+  width: 56px;
+  height: 1px;
+  background-color: #e00f14;
+}
+#wordWithUs .workCircle .upCircle p {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  width: 40%;
+}
+#wordWithUs .workCircle .downCircle {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 50px;
+}
+#wordWithUs .workCircle .downCircle form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#wordWithUs .workCircle .downCircle form .names {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#wordWithUs .workCircle .downCircle form .names .saxeli {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#wordWithUs .workCircle .downCircle form .names .gvari {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#wordWithUs .workCircle .downCircle form .others {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+#wordWithUs .workCircle .downCircle form .others .meili {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#wordWithUs .workCircle .downCircle form .others .werili {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#wordWithUs .workCircle .downCircle form .others .werili textarea {
+  resize: none;
+  width: 100%;
+  height: 70px;
+  text-align: start;
+}
+#wordWithUs .workCircle .downCircle form .others button {
+  width: 100%;
+  height: 40%;
+  font-family: "Syne", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #e00f14;
+  background-color: transparent;
+  border: 1px solid #e00f14;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 10px;
+}
+#wordWithUs .workCircle .downCircle form .others button:hover {
+  transition: 0.4s;
+  background-color: #e00f14;
+  color: white;
+}
+#wordWithUs .workCircle .downCircle form input, #wordWithUs .workCircle .downCircle form textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--mainColor1);
+  padding: 8px 2px 8px 12px;
+}
+#wordWithUs .workCircle .downCircle form input:hover, #wordWithUs .workCircle .downCircle form textarea:hover {
+  background-color: #FCF1ED;
+}
+#wordWithUs .workCircle .downCircle form input:focus, #wordWithUs .workCircle .downCircle form textarea:focus {
+  background-color: #FCF1ED;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  font-weight: 600;
+}/*# sourceMappingURL=about.css.map */

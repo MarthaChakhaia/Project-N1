@@ -1,0 +1,337 @@
+$mainFont1: "Syne", sans-serif;
+$mainFont2: "Imperial Script", cursive;
+$mainColor1: #e00f14;
+$mainColor2: #fffef8;
+$mainColor3: #FFF7F7;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 130px 0px 30px 0px;
+    gap: 50px;
+    background-color: $mainColor2;
+    padding: 0px 50px;
+
+    .mainH1{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        h1{
+            font-size: 220px;
+            font-weight: 100;
+            font-family: $mainFont2;
+        }
+    }
+
+    .qvemot{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        gap: 15px;
+
+        .leFt{
+            height: 100%;
+            width: 70%;
+            background-image: url(../images/aboutus.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .riGht{
+            height: 100%;
+            max-width: 30%;
+            width: 274px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: start;
+
+            p{
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 1.6em;
+            }
+        }
+    }
+}
+
+#locations{
+    width: 100%;
+    height: 100vh;
+    background-color: $mainColor2;
+    padding: 50px 50px 30px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 30px;
+
+    .locationsH2{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        h2{
+            font-size: 50px;
+            font-weight: 600;
+        }
+    }
+
+    .locations-grid{
+        width: 85%;
+        height: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 0px;
+
+        .location{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            gap: 30px;
+
+            .locTxt{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                padding-bottom: 10px;
+
+                p{
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+
+                span{
+                    font-size: 25px;
+                    font-family: $mainFont2;
+                    font-weight: 100;
+                }
+            }
+
+            .address{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+
+                p{
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+            }
+
+            .locLine{
+                width: 411px;
+                height: 5px;
+                background-color: $mainColor1;
+            }
+        }
+    }
+}
+
+#wordWithUs{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--mainColor2);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 280px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0px 50px;
+
+    .boxUp{
+        width: 100%;
+        height: 80%;
+        background-image: url(../images/07.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .boxDown{
+        width: 100%;
+        height: 20%;
+        background-color: var(--mainColor2);
+    }
+
+    .workCircle{
+        position: absolute;
+        bottom: -180px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--mainColor2);
+        width: 700px; 
+        height: 798px; 
+        border-radius: 9999px 9999px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        border: 1px #e00f14 solid;
+        gap: 80px;
+
+        .upCircle{
+            margin-top: 125px;
+            width: 100%; 
+            height: 30%; 
+            gap: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+            text-align: center;
+            
+            h3{
+                font-size: 45px;
+                font-family: $mainFont2;
+                word-spacing: 10px;
+                font-weight: 100;
+            }
+
+            .workLine{
+                width: 56px;
+                height: 1px;
+                background-color: $mainColor1;
+            }
+
+            p{
+                font-size: 16px;
+                font-weight: 600;
+                text-align: center;
+                width: 40%;
+            }
+        }
+
+        .downCircle{
+            width: 100%; 
+            height: 70%; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px 50px;
+
+            form{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                
+                .names{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    gap: 20px;
+
+                    .saxeli{
+                        height: 100%;
+                        width: 50%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                    }
+
+                    .gvari{
+                        height: 100%;
+                        width: 50%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                    }
+                }
+
+                .others{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    justify-content: center;
+
+                    .meili{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                    }
+
+                    .werili{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        textarea{
+                            resize: none;
+                            width: 100%;
+                            height: 70px;
+                            text-align: start;
+                        }
+                    }
+
+                    button{
+                        width: 100%;
+                        height: 40%;
+                        font-family: $mainFont1;
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: #e00f14;
+                        background-color: transparent;
+                        border: 1px solid #e00f14 ;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        padding: 10px;
+
+                        &:hover{
+                            transition: 0.4s;
+                            background-color: #e00f14;
+                            color: white;
+                        }
+                    }
+                }
+
+                input, textarea{
+                    appearance: none;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    background-color: transparent;
+                    border-bottom: 1px solid var(--mainColor1);
+                    padding: 8px 2px 8px 12px;
+
+                    &:hover{
+                        background-color: #FCF1ED;
+                    }
+
+                    &:focus{
+                        background-color: #FCF1ED;
+                        border-bottom: 1px solid black;
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
