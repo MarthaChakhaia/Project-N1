@@ -13,21 +13,21 @@ main {
   gap: 130px;
   justify-content: start;
 }
-main .privacyRight {
+main .cookieRight {
   width: 30%;
   height: 100%;
   display: flex;
   align-items: start;
   justify-content: right;
 }
-main .privacyRight h1 {
+main .cookieRight h1 {
   font-size: 45px;
   font-family: "Imperial Script", cursive;
   font-weight: 100;
   width: 200px;
   letter-spacing: 3px;
 }
-main .privacyLeft {
+main .cookieLeft {
   width: 50%;
   height: 100%;
   display: flex;
@@ -35,50 +35,34 @@ main .privacyLeft {
   gap: 50px;
   justify-content: start;
 }
-main .privacyLeft .zemo {
+main .cookieLeft .zemo {
   width: 100%;
   height: 33%;
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
-main .privacyLeft .zemo h3 {
+main .cookieLeft .zemo h3 {
   font-size: 16px;
   font-weight: 700;
 }
-main .privacyLeft .zemo p {
+main .cookieLeft .zemo p {
   font-size: 16px;
   font-weight: lighter;
   line-height: 25px;
 }
-main .privacyLeft .shua {
+main .cookieLeft .qveda {
   width: 100%;
   height: 33%;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-main .privacyLeft .shua h3 {
+main .cookieLeft .qveda h3 {
   font-size: 16px;
   font-weight: 700;
 }
-main .privacyLeft .shua p {
-  font-size: 16px;
-  font-weight: lighter;
-  line-height: 25px;
-}
-main .privacyLeft .qveda {
-  width: 100%;
-  height: 33%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-main .privacyLeft .qveda h3 {
-  font-size: 16px;
-  font-weight: 700;
-}
-main .privacyLeft .qveda p {
+main .cookieLeft .qveda p {
   font-size: 16px;
   font-weight: lighter;
   line-height: 25px;
@@ -91,29 +75,29 @@ main .privacyLeft .qveda p {
     align-items: center;
     margin-top: 110px;
   }
-  main .privacyRight {
+  main .cookieRight {
     width: 100%;
     justify-content: center;
     align-items: center;
   }
-  main .privacyRight h1 {
+  main .cookieRight h1 {
     width: 100%;
     text-align: center;
   }
-  main .privacyLeft {
+  main .cookieLeft {
     width: 100%;
   }
-  main .privacyLeft .zemo {
+  main .cookieLeft .zemo {
     gap: 20px;
   }
 }
 @media screen and (max-width: 490px) {
-  .privacyRight {
+  .cookieRight {
     width: 100%;
     justify-content: start !important;
   }
-  .privacyRight h1 {
+  .cookieRight h1 {
     width: 200px !important;
     text-align: start !important;
   }
-}/*# sourceMappingURL=privacypol.css.map */
+}/*# sourceMappingURL=cookiepolicy.css.map */
