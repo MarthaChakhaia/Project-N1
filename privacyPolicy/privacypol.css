@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 60px 30px 60px 30px;
+  width: 100%;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
+  justify-content: start;
+}
+main .privacyRight {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: right;
+}
+main .privacyRight h1 {
+  font-size: 45px;
+  font-family: "Imperial Script", cursive;
+  font-weight: 100;
+  width: 200px;
+  letter-spacing: 3px;
+}
+main .privacyLeft {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: start;
+}
+main .privacyLeft .zemo {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+main .privacyLeft .zemo h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+main .privacyLeft .zemo p {
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 25px;
+}
+main .privacyLeft .shua {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .privacyLeft .shua h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+main .privacyLeft .shua p {
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 25px;
+}
+main .privacyLeft .qveda {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .privacyLeft .qveda h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+main .privacyLeft .qveda p {
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 25px;
+}
+main .privacyLeft .qveda p a {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-top: 110px;
+  }
+  main .privacyRight {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  main .privacyRight h1 {
+    width: 100%;
+    text-align: center;
+  }
+  main .privacyLeft {
+    width: 100%;
+  }
+  main .privacyLeft .zemo {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .privacyRight {
+    width: 100%;
+    justify-content: start !important;
+  }
+  .privacyRight h1 {
+    width: 200px !important;
+    text-align: start !important;
+  }
+}/*# sourceMappingURL=privacypol.css.map */

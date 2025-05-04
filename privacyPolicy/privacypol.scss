@@ -1,0 +1,151 @@
+$mainFont1: "Syne", sans-serif;
+$mainFont2: "Imperial Script", cursive;
+$mainColor1: #e00f14;
+$mainColor2: #fffef8;
+$mainColor3: #FFF7F7;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    padding: 60px 30px 60px 30px;
+    width: 100%;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    justify-content: start;
+
+    .privacyRight{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: right;
+
+        h1{
+            font-size: 45px;
+            font-family: $mainFont2;
+            font-weight: 100;
+            width: 200px;
+            letter-spacing: 3px;
+        }
+    }
+
+    .privacyLeft{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: start;
+
+        .zemo{
+            width: 100%;
+            height: 33%;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            h3{
+                font-size: 16px;
+                font-weight: 700;
+            }
+
+            p{
+                font-size: 16px;
+                font-weight: lighter;
+                line-height: 25px;
+            }
+        }
+
+        .shua{
+            width: 100%;
+            height: 33%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            h3{
+                font-size: 16px;
+                font-weight: 700;
+            }
+
+            p{
+                font-size: 16px;
+                font-weight: lighter;
+                line-height: 25px;
+            }
+        }
+
+        .qveda{
+            width: 100%;
+            height: 33%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            h3{
+                font-size: 16px;
+                font-weight: 700;
+            }
+
+            p{
+                font-size: 16px;
+                font-weight: lighter;
+                line-height: 25px;
+
+                a{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+    main{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        margin-top: 110px;
+
+        .privacyRight{
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+
+            h1{
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        .privacyLeft{
+            width: 100%;
+
+            .zemo{
+                gap: 20px;
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width:490px) {
+    .privacyRight{
+        width: 100%;
+        justify-content: start !important;
+
+        h1{
+            width: 200px !important;
+            text-align: start !important;
+        }
+    }
+}
