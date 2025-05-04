@@ -30,7 +30,7 @@ main .qvemot {
   width: 100%;
   height: 80%;
   display: flex;
-  gap: 15px;
+  gap: 20px;
 }
 main .qvemot .leFt {
   height: 100%;
@@ -42,8 +42,7 @@ main .qvemot .leFt {
 }
 main .qvemot .riGht {
   height: 100%;
-  max-width: 30%;
-  width: 274px;
+  width: 30%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -63,7 +62,8 @@ main .qvemot .riGht p {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 #locations .locationsH2 {
   width: 100%;
@@ -77,11 +77,11 @@ main .qvemot .riGht p {
   font-weight: 600;
 }
 #locations .locations-grid {
-  width: 85%;
+  width: 80%;
   height: 80%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px 0px;
+  gap: 40px 40px;
 }
 #locations .locations-grid .location {
   width: 100%;
@@ -233,7 +233,7 @@ main .qvemot .riGht p {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
 }
 #wordWithUs .workCircle .downCircle form .others .meili {
@@ -273,6 +273,7 @@ main .qvemot .riGht p {
   transition: 0.4s;
   background-color: #e00f14;
   color: white;
+  font-weight: 400;
 }
 #wordWithUs .workCircle .downCircle form input, #wordWithUs .workCircle .downCircle form textarea {
   -webkit-appearance: none;
@@ -293,4 +294,16 @@ main .qvemot .riGht p {
   border-bottom: 1px solid black;
   font-size: 18px;
   font-weight: 600;
+}
+
+@media screen and (max-width: 1040px) {
+  .mainH1 h1 {
+    font-size: 200px !important;
+  }
+  .riGht p {
+    font-size: 14px !important;
+  }
+  .locLine {
+    width: 375px !important;
+  }
 }/*# sourceMappingURL=about.css.map */

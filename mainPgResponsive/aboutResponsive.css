@@ -1,0 +1,176 @@
+@media screen and (max-width: 850px){
+    .qvemot{
+        flex-direction: column;
+        gap: 30px !important;
+    }
+
+    .leFt{
+        width: 100% !important;
+        height: 80% !important;
+    }
+
+    .riGht{
+        width: 100% !important;
+        height: 20%!important;
+    } 
+
+    .mainH1 h1{
+        font-size: 180px !important;
+    }
+
+    .locLine{
+        width: 345px !important;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .locations-grid{
+        grid-template-columns: 1fr !important;
+        width: 100%;
+    }
+
+    #locations {
+        height: auto;
+        margin-top: 170px;
+    }
+
+    .boxUp{
+        background-attachment: scroll !important;
+    }
+
+    .workCircle {
+        width: 550px !important;
+        height: 648px !important;
+        gap: 40px !important;
+    }
+
+    .upCircle{
+        margin-top: 80px !important;
+    }
+
+    .upCircle h3 {
+        font-size: 40px !important;
+    }
+
+    .upCircle p{
+        font-size: 14px !important;
+    }
+
+    .mainH1 h1{
+        font-size: 150px !important;
+    }
+
+    input:focus, textarea:focus{
+        font-size: 14px !important;
+    }
+}   
+
+@media screen and (max-width: 630px){
+    .workCircle{
+        width: 450px !important;
+    }
+
+    .upCircle p{
+        width: 50% !important;
+    }
+
+    .names{
+        flex-direction: column;
+    }
+
+    .saxeli, .gvari{
+        width: 100% !important;
+    }
+
+    .upCircle h3{
+        font-size: 30px !important;
+    }
+
+    .upCircle{
+        gap: 15px !important;
+    }
+
+    .others button{
+        margin-bottom: 10px !important;
+    }
+
+    .mainH1 h1{
+        font-size: 120px !important;
+    }
+
+    #locations{
+        margin-top: 280px;
+    }
+
+    .werili textarea{
+        height: 50px !important;
+    }
+    
+    #wordWithUs{
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .mainH1{
+        padding: 0px 30px !important;
+    }
+
+    .riGht{
+        padding: 0px 30px !important;
+    }
+
+    .mainH1 h1{
+        font-size: 90px !important;
+    }
+
+    main{
+        gap: 20px !important;
+    }
+
+    #locations{
+        margin-top: 350px !important;
+    }
+
+    .locLine {
+        width: 375px !important;
+    }
+
+    .locTxt{
+        flex-direction: column !important;
+        align-items: start !important;
+        gap: 10px !important;
+    }
+
+    .location{
+        gap: 20px !important;
+    }
+
+    .address p{
+        font-size: 18px !important;
+    }
+
+    main{
+        padding: 0px !important;
+    }
+
+    .workCircle{
+        width: 400px !important;
+    }
+
+    #locations{
+        padding: 30px !important;
+    }
+
+
+}
+
+@media screen and (max-width: 420px){
+    .locLine{
+        width: 330px !important;
+    }
+
+    .workCircle{
+        width: 350px !important;
+    }
+}
