@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin-top: 130px;
+  width: 100%;
+  background-image: url(../images/07.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+main .formDiv {
+  width: 40%;
+  height: 70%;
+  background-color: rgba(255, 254, 248, 0.8549019608);
+  border: #e00f14 1px solid;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+main .formDiv .logTxt {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 30px 15px 30px;
+  gap: 20px;
+}
+main .formDiv .logTxt h1 {
+  font-family: "Imperial Script", cursive;
+  font-size: 45px;
+  font-weight: 100;
+  letter-spacing: 2.5px;
+}
+main .formDiv .logTxt .logLine {
+  width: 56px;
+  height: 1px !important;
+  background-color: #e00f14;
+}
+main .formDiv form {
+  width: 100%;
+  height: 70%;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .formDiv form input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--mainColor1);
+  padding: 8px 2px 8px 12px;
+}
+main .formDiv form input:hover {
+  background-color: #FCF1ED;
+}
+main .formDiv form input:focus {
+  background-color: #FCF1ED;
+  border-bottom: 1px solid black;
+  font-weight: 600;
+}
+main .formDiv form button {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #e00f14;
+  background-color: transparent;
+  border: 1px solid #e00f14;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+main .formDiv form button:hover {
+  transition: 0.4s;
+  background-color: #e00f14;
+  color: white;
+  font-weight: 400;
+}
+main .formDiv form a {
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+main .formDiv form a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 960px) {
+  main .formDiv {
+    width: 65%;
+    height: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  main {
+    background-attachment: scroll;
+  }
+  main .formDiv {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  main .formDiv {
+    width: 95%;
+  }
+  main .formDiv .logTxt h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 405px) {
+  main .formDiv {
+    width: 100%;
+  }
+  main .formDiv .logTxt h1 {
+    font-size: 35px;
+  }
+}/*# sourceMappingURL=logini.css.map */
